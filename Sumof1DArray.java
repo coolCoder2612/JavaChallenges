@@ -1,4 +1,10 @@
 class Sumof1DArray {
+    
+    public static void main(String args[]){
+        
+     //Calling the first method. THis method is not very much optimized.    
+    }
+        
     public int[] runningSum(int[] nums) {
         int[] result = new int[nums.length];
         result[0] = nums[0];
